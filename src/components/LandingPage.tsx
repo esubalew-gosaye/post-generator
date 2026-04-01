@@ -1,4 +1,5 @@
-import { Star, StarHalf, Facebook, Twitter, Instagram, Quote, ThumbsUp, MessageSquare, Share2, ChevronLeft, ChevronRight, Sparkles, Images } from 'lucide-react';
+import { Star, StarHalf, Facebook, Twitter, Instagram, Quote, ThumbsUp, MessageSquare, Share2, ChevronLeft, ChevronRight, Sparkles, Images, Linkedin, MessageCirclePlus, GitBranchPlus, Github } from 'lucide-react';
+import { MessageChannel } from 'worker_threads';
 
 export default function LandingPage({ onStart }: { onStart: () => void }) {
   return (
@@ -165,10 +166,9 @@ export default function LandingPage({ onStart }: { onStart: () => void }) {
       {/* Footer */}
       <footer className="bg-white pt-8 pb-12 text-center relative">
         <div className="flex justify-center gap-6 mb-8 text-[#4A2B18]">
-          <a href="#" className="hover:text-[#F2A945] transition-colors"><Facebook className="w-6 h-6 fill-current" /></a>
-          <a href="#" className="hover:text-[#F2A945] transition-colors"><svg className="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.874-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.279 1.14c-.038.154-.127.189-.286.115-1.066-.496-1.734-2.053-1.734-3.303 0-2.692 1.956-5.166 5.644-5.166 2.966 0 5.273 2.114 5.273 4.945 0 2.948-1.858 5.32-4.437 5.32-1.01 0-1.96-.525-2.285-1.144l-.622 2.375c-.225.864-.836 1.944-1.246 2.604 1.049.324 2.162.498 3.313.498 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg></a>
-          <a href="#" className="hover:text-[#F2A945] transition-colors"><Twitter className="w-6 h-6 fill-current" /></a>
-          <a href="#" className="hover:text-[#F2A945] transition-colors"><Instagram className="w-6 h-6" /></a>
+          <a href="https://github.com/esubalew-gosaye" target='__blank' className="hover:text-[#F2A945] transition-colors"><Github className="w-6 h-6 fill-current" /></a>
+          <a href="https://t.me/@mesayem" target='__blank' className="hover:text-[#F2A945] transition-colors"><MessageCirclePlus className="w-6 h-6 fill-current" /></a>
+          <a href="https://www.linkedin.com/in/esubalew-gosaye/" target='__blank' className="hover:text-[#F2A945] transition-colors"><Linkedin className="w-6 h-6" /></a>
         </div>
         
         <div className="flex flex-wrap justify-center gap-x-3 gap-y-2 text-sm font-bold text-[#7B8C37] mb-8 px-4">
