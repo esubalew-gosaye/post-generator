@@ -73,27 +73,36 @@ const GENERAL_IMAGES = [
   'https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1080&q=80', // Waterfall
   'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=1080&q=80', // Forest mist
   'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1080&q=80', // Mountain lake
-  'https://images.unsplash.com/photo-1476610286381-a70b5032cd52?w=1080&q=80', // Starry night
   'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1080&q=80', // Field
   'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1080&q=80', // Valley
   'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=1080&q=80', // Bridge in forest
+  'https://picsum.photos/seed/beach/1080/1080', // Beach
+  'https://picsum.photos/seed/mountain/1080/1080', // Mountains/Stars
+  'https://picsum.photos/seed/nature/1080/1080', // Nature
+  'https://picsum.photos/seed/mountains/1080/1080', // Mountains
+  'https://picsum.photos/seed/lake/1080/1080', // Alpine lake
+  'https://picsum.photos/seed/ocean/1080/1080', // Ocean
+  'https://picsum.photos/seed/landscape/1080/1080', // Beautiful landscape
+  'https://picsum.photos/seed/autumn/1080/1080', // Autumn
+  'https://picsum.photos/seed/sunrise/1080/1080', // Sunrise
+  'https://picsum.photos/seed/waterfall/1080/1080', // Waterfall
 ];
 
 const SPIRITUAL_IMAGES = [
   'https://images.unsplash.com/photo-1511216335778-7cb8f49fa7a3?w=1080&q=80', // Nature/Sunlight
-  'https://images.unsplash.com/photo-1444464666168-49b626f49cb9?w=1080&q=80', // Forest light
+  'https://picsum.photos/seed/bridge/1080/1080', // Bridge in forest
   'https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=1080&q=80', // Cross silhouette
   'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=1080&q=80', // Open bible
-  'https://images.unsplash.com/photo-1496661415325-ef8d1fc1475f?w=1080&q=80', // Church interior
-  'https://images.unsplash.com/photo-1438032005730-c779502fac39?w=1080&q=80', // Dove/bird flying
+  'https://picsum.photos/seed/valley/1080/1080', // Valley
+  'https://picsum.photos/seed/field/1080/1080', // Field
   'https://images.unsplash.com/photo-1519817650390-64a93db51149?w=1080&q=80', // Hands praying
   'https://images.unsplash.com/photo-1478147427282-58a87a120781?w=1080&q=80', // Cross on hill
-  'https://images.unsplash.com/photo-1445445290350-18a3b86e0b5b?w=1080&q=80', // Sun rays
+  'https://picsum.photos/seed/starry/1080/1080', // Starry night
   'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=1080&q=80', // Church window
   'https://images.unsplash.com/photo-1510590337019-5ef8d3d32116?w=1080&q=80', // Wheat field
   'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1080&q=80', // Majestic mountain
-  'https://images.unsplash.com/photo-1458668383970-8ddd3927bcbd?w=1080&q=80', // Light through trees
-  'https://images.unsplash.com/photo-1483232539664-d89822fb1478?w=1080&q=80', // Peaceful lake
+  'https://picsum.photos/seed/lakeview/1080/1080', // Mountain lake
+  'https://picsum.photos/seed/forest/1080/1080', // Forest mist
   'https://images.unsplash.com/photo-1494548162494-384bba4ab999?w=1080&q=80', // Sunrise ocean
 ];
 
@@ -134,7 +143,7 @@ export default function Editor({ onBack }: { onBack: () => void }) {
       content: 'Just launched my new project! 🚀 Building things that make people\'s lives easier is the best feeling in the world. What are you working on today?',
       username: 'Alex Developer',
       handle: '@mesayem',
-      avatarUrl: 'https://i.pravatar.cc/150?u=alex',
+      avatarUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=tim',
       platform: 'linkedin'
     },
 
